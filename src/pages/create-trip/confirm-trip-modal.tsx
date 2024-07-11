@@ -1,4 +1,4 @@
-import { User, X } from "lucide-react";
+import { Mail, User, X } from "lucide-react";
 import { FormEvent } from "react";
 
 interface ConfirmTripModalProps {
@@ -44,7 +44,7 @@ export function ConfirmTripModal({
             />
           </div>
           <div className="py-2.5 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
-            <User className="text-zinc-900 size-5" />
+            <Mail className="text-zinc-900 size-5" />
             <input
               type="email"
               name="email"
